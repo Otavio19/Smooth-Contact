@@ -1,0 +1,65 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body
+{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+h1
+{
+    color: blue;
+    letter-spacing: 1.2rem;
+    font-size: 5rem;
+    line-height: 3rem;
+}
+
+h3
+{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contactList
+{
+    list-style: none;
+}
+
+.contact img
+{
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.contact
+{
+    font-size: 2rem;
+    display: flex;
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    background-color: beige;
+}
+
+.contact a
+{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+}
